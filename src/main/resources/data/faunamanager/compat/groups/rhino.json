@@ -1,0 +1,21 @@
+{
+  "group_id": "rhino",
+  "entries": [
+    {
+      "mod_id": "naturalist",
+      "entity_id": "naturalist:rhino",
+      "priority": 5,
+      "drops": {
+        "hide": { "item": "minecraft:leather", "min": 1, "max": 3 },
+        "meat": { "item": "naturalist:bushmeat", "min": 1, "max": 3 }
+      }
+    },
+    {
+      "mod_id": "alexsmobs",
+      "entity_id": "alexsmobs:rhinoceros",
+      "priority": 10,
+      "drops": {}
+    }
+  ],
+  "canonical_drops": []
+}

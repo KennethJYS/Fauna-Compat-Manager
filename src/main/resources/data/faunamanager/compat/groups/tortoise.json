@@ -1,0 +1,20 @@
+{
+  "group_id": "tortoise",
+  "entries": [
+    {
+      "mod_id": "naturalist",
+      "entity_id": "naturalist:tortoise",
+      "priority": 5,
+      "drops": {
+        "scute": "minecraft:scute"
+      }
+    },
+    {
+      "mod_id": "alexsmobs",
+      "entity_id": "alexsmobs:terrapin",
+      "priority": 10,
+      "drops": {}
+    }
+  ],
+  "canonical_drops": []
+}

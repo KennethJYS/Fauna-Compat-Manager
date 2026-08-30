@@ -1,0 +1,8 @@
+{
+  "_comment": "Tag generado a partir de compat/groups/bear.json (canonical_drop: bear_fur). En v1 es estático; en v2 se generará vía datagen a partir de EquivalenceRegistry.",
+  "replace": false,
+  "values": [
+    "alexsmobs:bear_fur",
+    "naturalist:fur"
+  ]
+}

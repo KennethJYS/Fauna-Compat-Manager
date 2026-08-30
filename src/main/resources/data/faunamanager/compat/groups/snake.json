@@ -1,0 +1,20 @@
+{
+  "group_id": "snake",
+  "entries": [
+    {
+      "mod_id": "naturalist",
+      "entity_id": "naturalist:snake",
+      "priority": 5,
+      "drops": {}
+    },
+    {
+      "mod_id": "alexsmobs",
+      "entity_id": "alexsmobs:rattlesnake",
+      "priority": 10,
+      "drops": {
+        "rattle": { "item": "alexsmobs:rattlesnake_rattle", "min": 0, "max": 1 }
+      }
+    }
+  ],
+  "canonical_drops": []
+}

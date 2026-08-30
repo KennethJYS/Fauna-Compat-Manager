@@ -1,0 +1,45 @@
+{
+  "_comment": "FaunaManager: ver falconry_glove.json para la explicación de la condición.",
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "faunamanager:group_active",
+          "group": "bear"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:paper"
+          },
+          {
+            "tag": "faunamanager:bear_fur"
+          }
+        ],
+        "result": {
+          "item": "alexsmobs:banner_pattern_bear"
+        }
+      }
+    },
+    {
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          {
+            "item": "minecraft:paper"
+          },
+          {
+            "item": "alexsmobs:bear_fur"
+          }
+        ],
+        "result": {
+          "item": "alexsmobs:banner_pattern_bear"
+        }
+      },
+      "conditions": []
+    }
+  ]
+}

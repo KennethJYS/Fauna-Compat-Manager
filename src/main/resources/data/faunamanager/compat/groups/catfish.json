@@ -1,0 +1,22 @@
+{
+  "group_id": "catfish",
+  "entries": [
+    {
+      "mod_id": "naturalist",
+      "entity_id": "naturalist:catfish",
+      "priority": 5,
+      "drops": {
+        "raw_fish": "naturalist:catfish"
+      }
+    },
+    {
+      "mod_id": "alexsmobs",
+      "entity_id": "alexsmobs:catfish",
+      "priority": 10,
+      "drops": {
+        "raw_fish": "alexsmobs:raw_catfish"
+      }
+    }
+  ],
+  "canonical_drops": []
+}

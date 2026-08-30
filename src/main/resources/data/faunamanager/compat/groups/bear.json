@@ -1,0 +1,22 @@
+{
+  "group_id": "bear",
+  "entries": [
+    {
+      "mod_id": "alexsmobs",
+      "entity_id": "alexsmobs:grizzly_bear",
+      "priority": 10,
+      "drops": {
+        "bear_fur": "alexsmobs:bear_fur"
+      }
+    },
+    {
+      "mod_id": "naturalist",
+      "entity_id": "naturalist:bear",
+      "priority": 5,
+      "drops": {
+        "bear_fur": "naturalist:fur"
+      }
+    }
+  ],
+  "canonical_drops": ["bear_fur"]
+}

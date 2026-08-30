@@ -1,0 +1,62 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+
+# ---------------------------------------------------------------------------
+# NOTA IMPORTANTE:
+# FaunaManager NO tiene dependencias obligatorias de mods de fauna.
+# Cada mod de fauna soportado (Alex's Mobs, Naturalist, etc.) se declara como
+# dependencia OPCIONAL en runtime, para que el mod funcione con cualquier
+# subconjunto de ellos instalado. La detección real ocurre vía ModList
+# en ModDetector.java, no aquí.
+# ---------------------------------------------------------------------------
+
+[[dependencies.${mod_id}]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "${forge_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "${minecraft_version_range}"
+    ordering = "NONE"
+    side = "BOTH"
+
+# Ejemplo de dependencia opcional (no bloquea el arranque si falta):
+[[dependencies.${mod_id}]]
+    modId = "alexsmobs"
+    mandatory = false
+    versionRange = "[1.20.1,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "naturalist"
+    mandatory = false
+    versionRange = "[1.20.1,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.${mod_id}]]
+    modId = "cloth_config"
+    mandatory = false
+    versionRange = "[11,)"
+    ordering = "AFTER"
+    side = "CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId = "crittersandcompanions"
+    mandatory = false
+    versionRange = "[2.6,)"
+    ordering = "AFTER"
+    side = "BOTH"

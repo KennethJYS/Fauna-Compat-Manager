@@ -1,0 +1,57 @@
+{
+  "_comment": "FaunaManager: si el grupo 'bear' NO está en modo 'todos' (el jugador eligió un mod específico o 'auto'), usa el tag #faunamanager:bear_fur para aceptar cualquier variante. Si está en 'todos' (default), usa la receta 100% original de Alex's Mobs, sin ninguna modificación.",
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "faunamanager:group_active",
+          "group": "bear"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " L ",
+          "LLL",
+          " H "
+        ],
+        "key": {
+          "H": {
+            "tag": "faunamanager:bear_fur"
+          },
+          "L": {
+            "item": "minecraft:leather"
+          }
+        },
+        "result": {
+          "item": "alexsmobs:falconry_glove",
+          "count": 1
+        }
+      }
+    },
+    {
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          " L ",
+          "LLL",
+          " H "
+        ],
+        "key": {
+          "H": {
+            "item": "alexsmobs:bear_fur"
+          },
+          "L": {
+            "item": "minecraft:leather"
+          }
+        },
+        "result": {
+          "item": "alexsmobs:falconry_glove",
+          "count": 1
+        }
+      },
+      "conditions": []
+    }
+  ]
+}

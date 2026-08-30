@@ -1,0 +1,21 @@
+{
+  "group_id": "snail",
+  "entries": [
+    {
+      "mod_id": "naturalist",
+      "entity_id": "naturalist:snail",
+      "priority": 5,
+      "drops": {
+        "shell": { "item": "naturalist:snail_shell", "min": 1, "max": 1, "chance": 0.1 },
+        "slime": { "item": "minecraft:slime_ball", "min": 0, "max": 1 }
+      }
+    },
+    {
+      "mod_id": "crittersandcompanions",
+      "entity_id": "crittersandcompanions:snail",
+      "priority": 10,
+      "drops": {}
+    }
+  ],
+  "canonical_drops": []
+}

@@ -1,0 +1,18 @@
+{
+  "group_id": "alligator",
+  "entries": [
+    {
+      "mod_id": "naturalist",
+      "entity_id": "naturalist:alligator",
+      "priority": 5,
+      "drops": {}
+    },
+    {
+      "mod_id": "alexsmobs",
+      "entity_id": "alexsmobs:caiman",
+      "priority": 10,
+      "drops": {}
+    }
+  ],
+  "canonical_drops": []
+}

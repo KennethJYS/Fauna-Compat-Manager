@@ -1,0 +1,7 @@
+{
+  "_comment": "FaunaManager: Naturalist agrega naturalist:dragonfly (y naturalist:firefly) a este tag vanilla para que las ranas los cacen con su IA nativa, sin código custom. Agregamos crittersandcompanions:dragonfly aquí también para replicar ese comportamiento real cuando gana Critters, en vez de simular la muerte con cualquier tipo de daño.",
+  "replace": false,
+  "values": [
+    "crittersandcompanions:dragonfly"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "faunamanager.config.title": "Fauna Compat Manager",
+  "faunamanager.config.category.selection": "Selección de fauna",
+  "faunamanager.config.category.maintenance": "Mantenimiento",
+  "faunamanager.config.tooltip": "'todos' (por defecto): ambos mobs conviven sin cambios, sin intervención de FaunaManager. O elige el mod específico que quieres para %s.",
+  "faunamanager.config.option.todos": "Todos",
+  "faunamanager.config.maintenance.cleanup_info": "Para eliminar mobs suprimidos que ya existen en el mundo, usa el comando /faunamanager cleanup (vista previa, no elimina nada) y /faunamanager cleanup confirm (elimina de verdad). Los animales domesticados y con nombre NUNCA se eliminan. Requiere permiso de operador. Solo afecta chunks actualmente cargados.",
+
+  "faunamanager.group.bear": "Oso",
+  "faunamanager.group.elephant": "Elefante",
+  "faunamanager.group.rhino": "Rinoceronte",
+  "faunamanager.group.catfish": "Bagre",
+  "faunamanager.group.snake": "Serpiente",
+  "faunamanager.group.blue_jay": "Arrendajo Azul",
+  "faunamanager.group.tortoise": "Tortuga",
+  "faunamanager.group.alligator": "Caimán",
+  "faunamanager.group.snail": "Caracol",
+  "faunamanager.group.dragonfly": "Libélula",
+
+  "faunamanager.cleanup.preview": "Vista previa: se eliminarían %s mobs suprimidos (%s domesticados/con nombre omitidos).",
+  "faunamanager.cleanup.done": "Listo: se eliminaron %s mobs suprimidos (%s domesticados/con nombre omitidos)."
+}

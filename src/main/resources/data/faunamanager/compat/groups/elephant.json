@@ -1,0 +1,21 @@
+{
+  "group_id": "elephant",
+  "entries": [
+    {
+      "mod_id": "naturalist",
+      "entity_id": "naturalist:elephant",
+      "priority": 5,
+      "drops": {
+        "hide": { "item": "minecraft:leather", "min": 3, "max": 5 },
+        "meat": { "item": "naturalist:bushmeat", "min": 1, "max": 3 }
+      }
+    },
+    {
+      "mod_id": "alexsmobs",
+      "entity_id": "alexsmobs:elephant",
+      "priority": 10,
+      "drops": {}
+    }
+  ],
+  "canonical_drops": []
+}

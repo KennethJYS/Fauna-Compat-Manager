@@ -1,0 +1,22 @@
+{
+  "faunamanager.config.title": "Fauna Compat Manager",
+  "faunamanager.config.category.selection": "Fauna Selection",
+  "faunamanager.config.category.maintenance": "Maintenance",
+  "faunamanager.config.tooltip": "'todos' (default): both mobs coexist unchanged, no FaunaManager intervention. Or pick the specific mod you want for %s.",
+  "faunamanager.config.option.todos": "All",
+  "faunamanager.config.maintenance.cleanup_info": "To remove suppressed mobs already present in the world, use the command /faunamanager cleanup (preview, removes nothing) and /faunamanager cleanup confirm (actually removes them). Tamed animals and named entities are NEVER removed. Requires operator permission. Only affects currently loaded chunks.",
+
+  "faunamanager.group.bear": "Bear",
+  "faunamanager.group.elephant": "Elephant",
+  "faunamanager.group.rhino": "Rhino",
+  "faunamanager.group.catfish": "Catfish",
+  "faunamanager.group.snake": "Snake",
+  "faunamanager.group.blue_jay": "Blue Jay",
+  "faunamanager.group.tortoise": "Tortoise",
+  "faunamanager.group.alligator": "Alligator",
+  "faunamanager.group.snail": "Snail",
+  "faunamanager.group.dragonfly": "Dragonfly",
+
+  "faunamanager.cleanup.preview": "Preview: %s suppressed mobs would be removed (%s tamed/named entities skipped).",
+  "faunamanager.cleanup.done": "Done: %s suppressed mobs removed (%s tamed/named entities skipped)."
+}
