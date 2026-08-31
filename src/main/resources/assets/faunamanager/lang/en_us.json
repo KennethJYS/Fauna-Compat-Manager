@@ -2,7 +2,7 @@
   "faunamanager.config.title": "Fauna Compat Manager",
   "faunamanager.config.category.selection": "Fauna Selection",
   "faunamanager.config.category.maintenance": "Maintenance",
-  "faunamanager.config.tooltip": "'todos' (default): both mobs coexist unchanged, no FaunaManager intervention. Or pick the specific mod you want for %s.",
+  "faunamanager.config.tooltip": "'All' (default): both mobs coexist unchanged, no FaunaManager intervention. Or pick the specific mod you want for %s.",
   "faunamanager.config.option.todos": "All",
   "faunamanager.config.maintenance.cleanup_info": "To remove suppressed mobs already present in the world, use the command /faunamanager cleanup (preview, removes nothing) and /faunamanager cleanup confirm (actually removes them). Tamed animals and named entities are NEVER removed. Requires operator permission. Only affects currently loaded chunks.",
 
